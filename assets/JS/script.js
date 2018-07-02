@@ -1,8 +1,6 @@
-// $('#high').click(function() {
-//     $('#high').css('height' : '+10px')
-//   });
-// });
-var input = $( "input:reset")
+$('#high').click(function() {
+    $('#rectgl').css('height' , '+10px');
+});
 $('#green').click(function() {
     $('#rectgl').css('background-color', 'green');
   });
